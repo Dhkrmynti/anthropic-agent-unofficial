@@ -1,0 +1,37 @@
+{
+  "company": "Anthropic, PBC",
+  "ticker": "ANT",
+  "exchange": "Nasdaq Global Select Market",
+  "filing": {
+    "form": "S-1/A (Amendment No. 3)",
+    "filed": "2026-11-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+    "index": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/0001628280-26-074338-index.htm"
+  },
+  "offering": {
+    "price_low": 70,
+    "price_high": 78,
+    "shares_by_company": 801351354,
+    "shares_by_sellers": 23648646,
+    "greenshoe": 123750000,
+    "private_placement_usd_m": 26000,
+    "private_placement_buyers": "Google, NVIDIA, AMD, Broadcom, Micron, Microsoft, TSMC",
+    "shares_outstanding_after": 13086672593,
+    "pricing": "2026-11-18 (evening, New York)",
+    "first_trade": "2026-11-19"
+  },
+  "revenue_usd_m": { "2023": 41, "2024": 386, "2025": 4585, "9M 2025": 2545, "9M 2026": 33242 },
+  "operating_loss_usd_m": { "2023": -551, "2024": -2980, "2025": -8060, "9M 2025": -5224, "9M 2026": -1260 },
+  "net_loss_usd_m": { "2025": -41965, "9M 2026": -104039 },
+  "fair_value_change_usd_m": { "9M 2026": -94324 },
+  "compute_infra_usd_m": { "2025": 7326, "9M 2026": 18808 },
+  "cash_and_st_investments_usd_m": { "2026-09-30": 131845, "pro_forma_as_adjusted": 212684 },
+  "run_rate_revenue_usd_b": { "2026-10-31": 81, "2026-09-30": 71 },
+  "net_revenue_retention_pct": { "2026-09-30": 900 },
+  "customers_100k_ttm": { "2025-09-30": 950, "2026-09-30": 11900 },
+  "notes": [
+    "Net loss in the first nine months of 2026 is mostly a non-cash $94.3B change in the fair value of convertible notes, SAFEs and derivatives, driven by the rising valuation; operating loss was $1.26B.",
+    "The S-1/A does not report a gross margin.",
+    "Run-Rate Revenue is the company's own metric: trailing 28-day consumption fees x 13 plus monthly subscriptions x 12."
+  ]
+}

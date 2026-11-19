@@ -1,0 +1,28 @@
+{
+  "name": "anthropic-agent-unofficial",
+  "version": "0.1.0",
+  "description": "Unofficial, not affiliated with Anthropic. ANT paper trading in your terminal: paper-trade Anthropic (Nasdaq: ANT) at the real delayed price, read the S-1/A figures, and ask a Claude analyst on your own credentials. No real money.",
+  "type": "module",
+  "homepage": "https://anthropicagent.app",
+  "repository": { "type": "git", "url": "git+https://github.com/Dhkrmynti/anthropic-agent-unofficial.git" },
+  "bugs": { "url": "https://github.com/Dhkrmynti/anthropic-agent-unofficial/issues" },
+  "publishConfig": { "access": "public" },
+  "keywords": ["anthropic", "ant", "paper-trading", "stock-simulator", "cli", "unofficial"],
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "bin": {
+    "anthropic-agent": "bin/anthropic-agent.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.4.0"
+  },
+  "license": "MIT"
+}
